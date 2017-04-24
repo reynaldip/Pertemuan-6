@@ -1,0 +1,22 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+     int batas;
+     int i;
+     int j;
+     cout << "Batas :";
+     cin >> batas;
+
+     i=batas;
+     while (i>=1) {
+         j=i;
+         while (j>=1){
+            cout<<j;
+            j--;
+         }
+         cout<<endl;
+         i--;
+     }
+     return 0;
+     }
