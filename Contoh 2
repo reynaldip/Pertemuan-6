@@ -1,0 +1,19 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+     int batas;
+     int i=0;
+     int j=0;
+     cout << "Batas :";
+     cin >> batas;
+
+    for (i=batas;i>=1;i--){
+        for(j=i;j>=1;j--){
+            cout<<j;
+        }
+        cout<<endl;
+
+    }
+    return 0;
+}
